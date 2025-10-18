@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-18T07:34:18 IST" name="PetStoreSuite" finished-at="2025-10-18T07:34:27 IST" duration-ms="9794">
+    <groups>
+    </groups>
+    <test started-at="2025-10-18T07:34:18 IST" name="PetStoreTest" finished-at="2025-10-18T07:34:27 IST" duration-ms="9794">
+      <class name="api.tests.UserTestUsingPropertiesFileData">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.tests.UserTestUsingPropertiesFileData@534a5a98]" started-at="2025-10-18T07:34:18 IST" name="setUpData" finished-at="2025-10-18T07:34:18 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpData -->
+        <test-method signature="testPostUser()[pri:1, instance:api.tests.UserTestUsingPropertiesFileData@534a5a98]" started-at="2025-10-18T07:34:18 IST" name="testPostUser" finished-at="2025-10-18T07:34:22 IST" duration-ms="3207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUser()[pri:2, instance:api.tests.UserTestUsingPropertiesFileData@534a5a98]" started-at="2025-10-18T07:34:22 IST" name="testGetUser" finished-at="2025-10-18T07:34:23 IST" duration-ms="1494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testUpdateUserByName()[pri:3, instance:api.tests.UserTestUsingPropertiesFileData@534a5a98]" started-at="2025-10-18T07:34:23 IST" name="testUpdateUserByName" finished-at="2025-10-18T07:34:26 IST" duration-ms="2853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testDeleteUser()[pri:4, instance:api.tests.UserTestUsingPropertiesFileData@534a5a98]" started-at="2025-10-18T07:34:26 IST" name="testDeleteUser" finished-at="2025-10-18T07:34:27 IST" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.tests.UserTestUsingPropertiesFileData -->
+    </test> <!-- PetStoreTest -->
+  </suite> <!-- PetStoreSuite -->
+</testng-results>
