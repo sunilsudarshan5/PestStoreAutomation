@@ -6,14 +6,12 @@
   </listeners>
   <test thread-count="5" name="PetStoreTest(failed)">
     <classes>
-      <class name="api.tests.UserTestUsingPropertiesFileData">
+      <class name="api.tests.DataDrivenTest">
         <methods>
-          <include name="testGetUser"/>
-          <include name="testDeleteUser"/>
-          <include name="setUpData"/>
-          <include name="testUpdateUserByName"/>
+          <include name="testDeleteUserByName"/>
+          <include name="testPostUser"/>
         </methods>
-      </class> <!-- api.tests.UserTestUsingPropertiesFileData -->
+      </class> <!-- api.tests.DataDrivenTest -->
     </classes>
   </test> <!-- PetStoreTest(failed) -->
 </suite> <!-- Failed suite [PetStoreSuite] -->
